@@ -1,0 +1,18 @@
+﻿<Window x:Class="Match3PlusUltraDeluxEX.GameWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Match3PlusUltraDeluxEX"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="720" Width="1080">
+
+    <Canvas x:Name="CanvasLayout">
+        <TextBlock Text="Score:" FontSize="24" Canvas.Left="6" Canvas.Top="23"/>
+        <TextBlock x:Name="ScoreText" Text="" FontSize="24" TextAlignment="Left" Canvas.Left="76" Canvas.Top="23"/>
+        <TextBlock Text="Time:" FontSize="24" Canvas.Left="6" Canvas.Top="48"/>
+        <TextBlock x:Name="TimeText" Text="7 days" FontSize="24" Canvas.Left="76" Canvas.Top="48"/>
+        <Grid x:Name="GridLayout" Canvas.Top="80" Canvas.Left="260"/>
+    </Canvas>
+
+</Window>
